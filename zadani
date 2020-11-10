@@ -1,0 +1,21 @@
+Kontingenční tabulka z tabulky "prodeje" na nový list
+
+- řádky: Měsíc
+- Hodnoty: Suma BH family
+
+Nad tabulkou vytvořit sloupcový kontingenční graf a tomu přidat:
+- popis osy x
+- popis osy y
+- název grafu
+- popisky dat
+
+Druhá kontingenční tabulka z tabulky "prodeje" na stejný list
+jako první kontingenční tabulka
+- řádky: Employee
+- hodnot: Suma BH family
+
+Vytvořit průřezy (slicery) nad sloupci:
+- Teritorry nr.
+- Date
+
+Tyto slicery propojit s oběmi kontingenčními tabulkami

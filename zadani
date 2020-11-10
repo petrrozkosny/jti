@@ -1,21 +1,22 @@
-Kontingenční tabulka z tabulky "prodeje" na nový list
 
-- řádky: Měsíc
-- Hodnoty: Suma BH family
+Vložit tabulku do listu "sales plan" a tu pojmenovat "plan"
 
-Nad tabulkou vytvořit sloupcový kontingenční graf a tomu přidat:
-- popis osy x
-- popis osy y
-- název grafu
-- popisky dat
+Vložit kontingenční tabulku z tabulky "prodeje" a tu vložit na nový list
+a přidat do datového modelu.
 
-Druhá kontingenční tabulka z tabulky "prodeje" na stejný list
-jako první kontingenční tabulka
-- řádky: Employee
-- hodnot: Suma BH family
+Řádky: Employee
+Hodnoty:	Sum of BH family (plan)
+		Sum of BH family (prodeje)
+		Podil prodeju BH family na celku sloupce (prodeje)
 
-Vytvořit průřezy (slicery) nad sloupci:
-- Teritorry nr.
-- Date
+Vložit další kontingenční tabulku na stejný list 
+(tabulka v rámci datového modelu)
+Řádky: teritorry nr., teritorry name
+Hodnoty: Sum of BH Family (prodeje)
 
-Tyto slicery propojit s oběmi kontingenčními tabulkami
+	Kontingenční graf nad touto tabulkou
+	- typ: koláčový graf
+	- přidat:
+		název: prodeje dle oblasti
+		popisy dat
+	
